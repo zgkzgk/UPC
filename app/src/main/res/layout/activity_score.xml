@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyActivitys.ScoreActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="成绩查询"
+        android:textSize="20sp"
+        android:background="#F5C400"/>
+    <TextView
+        android:id="@+id/textView"
+        android:text="请选择学期"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        />
+    <Spinner
+        android:layout_marginTop="20dp"
+        android:id="@+id/medel"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/medel">
+    </Spinner>
+
+    <Button
+        android:id="@+id/chafen_button"
+        android:layout_margin="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询"
+        android:background="@color/sdl_button_focused_light"/>
+</LinearLayout>

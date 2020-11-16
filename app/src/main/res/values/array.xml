@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="medel">
+        <item>2019-2020-1</item>
+        <item>2018-2019-3</item>
+        <item>2018-2019-2</item>
+        <item>2018-2019-1</item>
+        <item>2017-2018-3</item>
+        <item>2017-2018-2</item>
+        <item>2017-2018-1</item>
+        <item>全部</item>
+    </string-array>
+    <string-array name="XQ_medel">
+        <item>青岛校区</item>
+    </string-array>
+    <string-array name="JXL_medel">
+        <item>东廊</item>
+        <item>东环</item>
+        <item>南堂</item>
+        <item>南教</item>
+        <item>西廊</item>
+        <item>西环</item>
+    </string-array>
+    <string-array name="SJD_medel">
+        <item>上午</item>
+        <item>下午</item>
+        <item>晚上</item>
+        <item>0102</item>
+        <item>0304</item>
+        <item>0506</item>
+        <item>0708</item>
+        <item>0910</item>
+    </string-array>
+    <string-array name="course_medel">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+</resources>
